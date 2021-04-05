@@ -30,6 +30,7 @@ int main() {
     text = encrypt_caesar(text,shift);
     std::string test;
     test = "parapa";
+    test = "123";
     std::cout << "Ciphertext :" << text << std::endl;
     std::cout << "Decrypted text :" << decrypt_caesar(text, shift);
 }
